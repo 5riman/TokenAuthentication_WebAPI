@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67109960c22c42fb9c45eb99415964ab" Name="Diagram1" ZoomLevel="40">
+        <EntityTypeShape EntityType="DotNetTrainingModel.AddIn" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.AmazonCredential" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.AuditLog" Width="1.5" PointX="8.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Connector" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.ConnectorType" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Customer" Width="1.5" PointX="5.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.CustomerSubscription" Width="1.5" PointX="7.5" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.CustomField" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.DayReportLog" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.DefaultMapping" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Empdetail" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Erpsystem" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.ErrorLog" Width="1.5" PointX="10.5" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.ExecutionLog" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.FileCabinet" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.HelpTextData" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Integrator" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Login" Width="1.5" PointX="3" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.NetSuiteStandardField" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.partnersign" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.QuoteRequest" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.RefreshToken" Width="1.5" PointX="7.5" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Role" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.schedulerProcessRunningLog" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Service_Login" Width="1.5" PointX="5.25" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.SetUpRecord" Width="1.5" PointX="14.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.SubscriptionPlan" Width="1.5" PointX="5.25" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.SupportStatu" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.SupportTicket" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.sysdiagram" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.test" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.TicketResponce" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.User_Roles" Width="1.5" PointX="3" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.UserConnector" Width="1.5" PointX="7.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.User" Width="1.5" PointX="3" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DotNetTrainingModel.Webhook_Request" Width="1.5" PointX="16.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__ErrorLogs__FK_Au__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__ErrorLogs__FK_Au__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__UserConne__Fk_Co__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Authoriza__FK_Cu__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Customers__Creat__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__CustomerS__FK_Cu__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Customers__Fk_Ro__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK_EL_CustomerId" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK_RefreshToken_Cust_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__CustomerS__FK_Su__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Logins__Fk_RoleI__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Logins__Fk_RoleI__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Logins__Fk_RoleI__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Logins__Fk_RoleI__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK_RefreshToken_Login_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK_RefreshToken_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Users__Fk_RoleID__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Users__Fk_RoleID__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK_UR_RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Service_L__FK_Us__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="DotNetTrainingModel.FK__Service_L__FK_Us__0A9D95DB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
